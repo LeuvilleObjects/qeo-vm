@@ -1,7 +1,7 @@
 qeo-vm
 ==========
 
-Automated provisioning and configuration of an Ubuntu VM containing the Android development environment, including Android ADT Bundle with SDK, Eclipse &amp; and QEO SDK using the Vagrant DevOps tool with Chef and shell-scripts.
+Automated provisioning and configuration of an Ubuntu VM containing the Android development environment, including Android ADT Bundle with SDK, Eclipse and QEO SDK using the Vagrant DevOps tool with Chef and shell-scripts.
 
 This automated VM installation and configuration uses the excellent DevOps tool, [Vagrant](http://downloads.vagrantup.com/) which works with both VirtualBox (free) and VMware Fusion &amp; Workstation (paid plug-in) in addition to several [Community Chef Cookbooks](http://community.opscode.com/cookbooks).
 
@@ -89,7 +89,7 @@ For example, if using VirtualBox perform the following steps,
 2. Open the 'Oracle VM VirtualBox'
 3. Run the QeoSdkVM
 4. Click on the USB devices (on the bottom of the window) and select your device.
-5. Plug the device into the USB port and verify that it appears when you run `lsusb` from the command line
+5. Verify that it appears when you run `lsusb` from the command line
 6. Your device should appear when running `lsusb` enabling you to use Android `adb`, e.g.
 
 		$ adb devices
@@ -119,5 +119,6 @@ _Note: To open the terminal from desktop, use ctrl-alt-T for PC or control-optio
 1. [Vagrant v2 documentation](http://docs.vagrantup.com/v2/getting-started/)
 2. [http://www.vagrantbox.es/](http://www.vagrantbox.es/)
 3. [Chef Cookbooks](http://community.opscode.com/cookbooks)
+4. [Qeo SDK](http://www.qeo-app-development.com/)
 
 
