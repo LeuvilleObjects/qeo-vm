@@ -45,6 +45,7 @@ Currently, it will provision an Android VM for development with the following sp
 
 1. Download and install the latest version of Vagrant for your OS from  [https://www.vagrantup.com/downloads.html](vagrantup.com/)
 2. Install vagrant plugins : 
+
 		$ vagrant plugin install vagrant-berkshelf
 		$ vagrant plugin install vagrant-omnibus
 
